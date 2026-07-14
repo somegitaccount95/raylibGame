@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
         BeginDrawing();
 
             ClearBackground(Color({0, 0, 0, 1}));
-            DrawText(TextFormat("FPS: %i", GetFPS()), 20, 5, 50, WHITE);
+            DrawText(TextFormat("FPS: %i", GetFPS()), 20, 5, 50, BLUE);
 
         EndDrawing();
     }
